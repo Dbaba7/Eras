@@ -8,7 +8,7 @@ interface ArrivalCheckProps {
 }
 
 export function ArrivalCheck({ onComplete, onResumeSearch }: ArrivalCheckProps) {
-  const { t } = useApp();
+  const { } = useApp();
   const [step, setStep] = useState<'initial' | 'found-form' | 'not-found' | 'success'>('initial');
 
   // Form states
